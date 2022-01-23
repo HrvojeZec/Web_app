@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+ header{
+    margin: 0;
+   background-color: green;
+}
+header img{
+    
+   width: 300px;
+}
+main .back form{
+    position:absolute;
+    left:300px;
+    top: 40px;
+    color: green;
+}
+main .back form button[type="menu"]{
+    background-color:yellow;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+main .back form button[type="menu"]:hover{
+    background-color:darkgray;
+}
+nav{
+    
+    background-image:url(../Standings_page/images/PageHeader_RainbowLaces.png );
+    
+    height: 200px;
+    width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+nav h1{
+
+color: white;
+width: 200px;
+font-size: 100px;
+
+}
+
+main table{
+    
+    transform: translate(78%,0%)
+}
+table caption img{
+    width: 300px;
+}
+table tbody img{
+    
+    width: 20px;
+}
+table tbody a{
+    text-decoration: none;
+}
+table tbody .squad{
+    width: 130px;
+    text-decoration: none;
+    line-height: 35px;
+    display: block;
+    background-color: green;
+    text-align: center;
+    
+  
+}
+table tbody .squad a{
+    color: white;
+}
+
+[class ^= "relegacija"]{
+    background-color: red;
+    color: white;
+}
+[class ^= "liga-prvaka"]{
+    background-color: rgb(0, 60, 255);
+    color: white;
+}
+[class ^= "euro-liga"]{
+    background-color: rgb(130, 0, 0);
+    color: white;
+}
+.square-liga-prvaka{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(0, 60, 255);
+    transform: translate(1850%,0%)
+}
+.tekst-liga-prvaka p{
+    text-align: center;
+    position:relative;
+    top: -40px;
+}
+.square-euro-liga{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(130, 0, 0);
+    transform: translate(1850%,-150%)
+}
+.tekst-euro-liga p{
+    text-align: center;
+    position:relative;
+    top: -80px;
+    left: -10px;
+}
+.square-relegacija{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    transform: translate(1850%,-300%)
+}
+.tekst-relegacija{
+    text-align: center;
+    position:relative;
+    top: -120px;
+    left: -65px;
+}
+main .SoccerResultsPL p{
+    padding: 20px;
+    position:absolute;
+    right: 25px;
+    top:5px;
+    color: white;
+    
+    
+  }
+  main .SoccerResultsPL-img img{
+    position:absolute;
+    right:10px;
+    top: 35px;
+    width: 30px;
+    border-radius: 50%;
+  }
+ 
